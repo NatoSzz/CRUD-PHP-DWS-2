@@ -32,7 +32,7 @@ $rowPrato = $stmt->fetch();
     </div>
     <br>
 
-    <form action="alterar-produto.php" method="POST">
+    <form action="alterar-prato.php" method="POST">
         <input type="hidden" name="id" id="id" value="<?= $id?>">
         <div class="form-group">
             <label for="nome">Nome:</label>
