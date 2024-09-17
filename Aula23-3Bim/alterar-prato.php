@@ -28,7 +28,7 @@ require 'conexao.php';
      * preco = [value-3], descricao = [value-4] WHERE 1
      */
 
-    $sql = "UPDATE pratos SET id = ?, nome = ?, preco = ?, descricao = ? 
+    $sql = "UPDATE pratos SET nome = ?, preco = ?, urlfoto = ?, descricao = ? 
                 WHERE id = ?";
 
     $stmt = $conn->prepare($sql);
